@@ -10,8 +10,8 @@ if ($name = "河原健人") {
 $total = 0;
 for($i = 1; $i <=10000; $i++) {
     $total += $i;
-    echo $total;
 }
+echo $total;
 //3. $fruits に配列で好きなフルーツを5個代入し、foreach文で順番に出力してください。
 $fruits = array("apple", "glape", "orange", "melon", "pine");
 foreach($fruits as $fruit){
@@ -30,7 +30,7 @@ for($i = 1; $i <= 100; $i++){
   // 5で割り切れたら{}内を実行する
   if($i % 5 == 0){
     echo $i;
-    echo $"\n"
+    echo "\n";
   }
 }
 
